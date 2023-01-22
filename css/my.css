@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/musical-pentagram-sound-waves-notes-background_1017-33911.jpg?w=740&t=st=1674297696~exp=1674298296~hmac=a81240b3a862580a6d7f0379d38edd743c1b9d73ecbd0fb67fbc2cc4a0b5427e);
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+
+
+
+.formdiv{
+
+/* border: 1px solid red; */
+height: 20vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.formdiv form input{
+
+    border: 2px solid black;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 10px;
+    color: initial;
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+    width: 25rem;
+
+}
+.submit{
+
+    width: 95%;
+    transition: all ease .5s;
+}
+.submit:hover{
+
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand{ 
+
+    font-size: 30px;
+    font-weight: bolder;
+    color: white !important;
+}
